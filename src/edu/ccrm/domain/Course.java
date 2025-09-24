@@ -79,7 +79,7 @@ public class Course {
     public void setInstructor(String instructor) { this.instructor = instructor; }
     public void setActive(boolean active) { this.active = active; }
     
-    @Override
+    //Override
     public String toString() {
         return String.format("Course[%s] %s (%d credits) - %s, %s", 
             code, title, credits, instructor, semester);
