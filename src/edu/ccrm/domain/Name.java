@@ -13,12 +13,12 @@ public final class Name {
     public String getLastName() { return lastName; }
     public String getFullName() { return firstName + " " + lastName; }
     
-    @Override
+    //Override
     public String toString() {
         return getFullName();
     }
     
-    @Override
+    //Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
@@ -26,7 +26,7 @@ public final class Name {
         return firstName.equals(name.firstName) && lastName.equals(name.lastName);
     }
     
-    @Override
+    //Override
     public int hashCode() {
         return firstName.hashCode() + lastName.hashCode();
     }
