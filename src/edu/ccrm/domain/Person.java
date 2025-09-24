@@ -15,11 +15,11 @@ public abstract class Person {
         this.createdAt = LocalDateTime.now();
     }
     
-    // Abstract method - must be implemented by subclasses
+    // Abstract method 
     public abstract String getRole();
     public abstract void displayProfile();
     
-    // Getters and setters (Encapsulation)
+    // Getters and setters 
     public String getId() { return id; }
     public Name getFullName() { return fullName; }
     public String getEmail() { return email; }
@@ -27,7 +27,7 @@ public abstract class Person {
     
     public void setEmail(String email) { this.email = email; }
     
-    @Override
+    //Override
     public String toString() {
         return String.format("ID: %s, Name: %s, Email: %s", id, fullName, email);
     }
