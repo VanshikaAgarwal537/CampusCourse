@@ -35,12 +35,12 @@ public class Student extends Person {
         this.totalCredits = 0.0;
     }
     
-    @Override
+    //Override
     public String getRole() {
         return "Student";
     }
     
-    @Override
+    //Override
     public void displayProfile() {
         System.out.println("=== Student Profile ===");
         System.out.println("ID: " + id);
@@ -92,7 +92,7 @@ public class Student extends Person {
     
     public void setStatus(StudentStatus status) { this.status = status; }
     
-    @Override
+    //Override
     public String toString() {
         return String.format("Student[%s] %s (%s) - %s", regNo, fullName, email, status);
     }
