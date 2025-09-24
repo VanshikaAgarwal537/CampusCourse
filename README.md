@@ -2,7 +2,7 @@
 
 ## Made by
 
-Name : Arpita Gupta  
+Name : Vanshika Agarwal
 Course : Programming in Java  
 Course Code: CSE2006  
 Institution: VIT Bhopal University  
