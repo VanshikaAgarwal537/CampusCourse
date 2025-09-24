@@ -13,12 +13,12 @@ public class Instructor extends Person {
         this.assignedCourses = new ArrayList<>();
     }
     
-    @Override
+    //Override
     public String getRole() {
         return "Instructor";
     }
     
-    @Override
+    //Override
     public void displayProfile() {
         System.out.println("=== Instructor Profile ===");
         System.out.println("ID: " + id);
@@ -44,7 +44,7 @@ public class Instructor extends Person {
     
     public void setDepartment(String department) { this.department = department; }
     
-    @Override
+    //Override
     public String toString() {
         return String.format("Instructor[%s] %s (%s) - %s", id, fullName, email, department);
     }
