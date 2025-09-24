@@ -18,7 +18,7 @@ public class Comparators {
     public static final Comparator<Course> BY_CODE = 
         Comparator.comparing(Course::getCode);
     
-    // Anonymous inner class example
+    
     public static final Comparator<Student> BY_REGISTRATION_DATE = new Comparator<Student>() {
         @Override
         public int compare(Student s1, Student s2) {
